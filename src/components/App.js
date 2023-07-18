@@ -10,10 +10,10 @@ const App = () => {
       {/* Do not remove the main div */}
       {
         weather_inp.temperature > 20 ?
-          (<div style={{ color: "red" }}>{weather_inp.temperature}</div>)
-          : (<div style={{ color: "blue" }}>{weather_inp.temperature}</div>)
+          (<p style={{ color: "red" }}>{weather_inp.temperature}</p>)
+          : (<p style={{ color: "blue" }}>{weather_inp.temperature}</p>)
       }
-      <div>{weather_inp.conditions}</div>
+      <p>{weather_inp.conditions}</p>
     </div>
   )
 }
