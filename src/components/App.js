@@ -11,7 +11,7 @@ const App = () => {
       {
         weather_inp.temperature > 20 ?
           (<p >Temperature: <span style={{ color: "red" }}>{weather_inp.temperature}</span></p>)
-          : (<p >conditions <span style={{ color: "blue" }}>{weather_inp.temperature}</span></p>)
+          : (<p >conditions: <span style={{ color: "blue" }}>{weather_inp.temperature}</span></p>)
       }
       <p>{weather_inp.conditions}</p>
     </div>
